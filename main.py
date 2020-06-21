@@ -25,7 +25,7 @@ def handler_69(message):
 
 @bot.message_handler(regexp=regexp_for_exact_match.format(300))
 def handler_300(message):
-    bot.reply_to(message, "Число тракториста")
+    bot.reply_to(message, "Обнаружено Число тракториста")
 
 
 bot.polling()
